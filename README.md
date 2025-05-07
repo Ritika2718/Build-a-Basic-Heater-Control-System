@@ -5,7 +5,6 @@
 
 Design and implement a simulated embedded system that monitors temperature and controls a heater based on thresholds. The system simulates heating behavior and includes overheating protection and state-based tracking.
 
----
 
 ## Platform & Tools
 
