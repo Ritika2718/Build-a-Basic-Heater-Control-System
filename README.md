@@ -8,11 +8,12 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ## Platform & Tools
 
-- **Simulation**: [Wokwi]([https://wokwi.com/](https://wokwi.com/projects/430305554791987201))
+- **Simulation**: [Wokwi Project Link](https://wokwi.com/projects/430305554791987201)
 - **Language**: C/C++ (Arduino Framework)
 - **Microcontroller**: ESP32 DevKit
 - **Sensor**: DHT22 (Temperature Sensor)
-- **Optional**: Buzzer (for Overheat alert)
+              Buzzer (for Overheat alert)
+- **Optional**: LED
 
 ---
 
@@ -73,18 +74,14 @@ Design and implement a simulated embedded system that monitors temperature and c
 ## Simulation Link (Wokwi)
 
 https://wokwi.com/projects/430305554791987201
+![Screenshot 2025-05-07 204116](https://github.com/user-attachments/assets/f74437ae-4b6e-42fc-b073-ac818d4d1366)
+![Screenshot 2025-05-07 204333](https://github.com/user-attachments/assets/023f7449-4524-4047-b5aa-6cbe58297f41)
+![Screenshot 2025-05-07 204154](https://github.com/user-attachments/assets/3b64e0b9-6bea-4236-bd2e-abc012312273)
+![Screenshot 2025-05-07 204239](https://github.com/user-attachments/assets/68502e06-5cdb-4b72-a3fd-8db4c9b540f3)
+
+
 
 ---
-
-##  Design Document
-
-Refer to the `Design_Document.md` or `Design_Document.pdf` for:
-- Sensor selection rationale
-- Communication protocol (GPIO - simple, fast, no overhead)
-- Block diagram
-- Future enhancements roadmap
-
-
 
 ##  Future Scope
 
