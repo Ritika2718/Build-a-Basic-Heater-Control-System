@@ -60,14 +60,14 @@ Design and implement a simulated embedded system that monitors temperature and c
 | LED       | GPIO18      |
 | Buzzer    | GPIO19      |
 
----
+
 
 ## Temperature Thresholds
 
 - **Target Temperature**: `30°C`
 - **Overheat Temperature**: `40°C`
 
----
+
 
 ## Wiring Overview
 
@@ -75,7 +75,6 @@ Design and implement a simulated embedded system that monitors temperature and c
 - **LED**: Anode → GPIO18, Cathode → GND
 - **Buzzer**: + → GPIO19, – → GND
 
----
 
 ## Simulation Link (Wokwi)
 
@@ -91,7 +90,7 @@ Refer to the `Design_Document.md` or `Design_Document.pdf` for:
 - Block diagram
 - Future enhancements roadmap
 
----
+
 
 ##  Future Scope
 
@@ -101,7 +100,7 @@ Refer to the `Design_Document.md` or `Design_Document.pdf` for:
 - Real heater interfacing via MOSFET/Relay
 - Smartphone control via app (BLE/WiFi)
 
----
+
 
 ## Author
 
@@ -109,7 +108,5 @@ Refer to the `Design_Document.md` or `Design_Document.pdf` for:
 B.Tech - Electronics and Communication Engineering  
 VIT Chennai
 
----
 
-## 📁 Folder Structure
 
