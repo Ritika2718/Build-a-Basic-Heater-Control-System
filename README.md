@@ -75,6 +75,8 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 https://wokwi.com/projects/430305554791987201
 
+---
+
 
 ![Screenshot 2025-05-07 204116](https://github.com/user-attachments/assets/f74437ae-4b6e-42fc-b073-ac818d4d1366)
 ![Screenshot 2025-05-07 204333](https://github.com/user-attachments/assets/023f7449-4524-4047-b5aa-6cbe58297f41)
