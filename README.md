@@ -13,7 +13,6 @@ Design and implement a simulated embedded system that monitors temperature and c
 - **Language**: C/C++ (Arduino Framework)
 - **Microcontroller**: ESP32 DevKit
 - **Sensor**: DHT22 (Temperature Sensor)
-- **Actuator**: LED (Heater indicator)
 - **Optional**: Buzzer (for Overheat alert)
 
 ---
