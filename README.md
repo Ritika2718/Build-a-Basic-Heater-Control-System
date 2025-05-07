@@ -1,13 +1,13 @@
 # Build-a-Basic-Heater-Control-System
-# 🔥 Temperature-Based Heater Control System (ESP32 + Wokwi)
+# Temperature-Based Heater Control System (ESP32 + Wokwi)
 
-## 📌 Problem Statement
+## Problem Statement
 
 Design and implement a simulated embedded system that monitors temperature and controls a heater based on thresholds. The system simulates heating behavior and includes overheating protection and state-based tracking.
 
 ---
 
-## 🛠️ Platform & Tools
+## Platform & Tools
 
 - **Simulation**: [Wokwi](https://wokwi.com/)
 - **Language**: C/C++ (Arduino Framework)
@@ -18,7 +18,7 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ---
 
-## 🚦 System States
+## System States
 
 | State            | Description                                          |
 |------------------|------------------------------------------------------|
@@ -30,7 +30,7 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ---
 
-## 🔁 Features
+##  Features
 
 - Continuously read temperature from DHT22
 - Turn simulated heater ON/OFF based on thresholds
@@ -41,7 +41,7 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ---
 
-## 🧩 Components Used
+##  Components Used
 
 | Component | Description |
 |----------|-------------|
@@ -52,7 +52,7 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ---
 
-## ⚙️ Pin Configuration
+##  Pin Configuration
 
 | Component | ESP32 GPIO |
 |-----------|-------------|
@@ -62,14 +62,14 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ---
 
-## 📊 Temperature Thresholds
+## Temperature Thresholds
 
 - **Target Temperature**: `30°C`
 - **Overheat Temperature**: `40°C`
 
 ---
 
-## 🔌 Wiring Overview
+## Wiring Overview
 
 - **DHT22**: VCC → 3.3V, GND → GND, DATA → GPIO4
 - **LED**: Anode → GPIO18, Cathode → GND
@@ -77,15 +77,13 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ---
 
-## 🔗 Simulation Link (Wokwi)
+## Simulation Link (Wokwi)
 
-👉 [Open Project in Wokwi](https://wokwi.com/projects/YOUR_PROJECT_ID)
-
-> Replace `YOUR_PROJECT_ID` with your actual link after saving the project in Wokwi.
+https://wokwi.com/projects/430305554791987201
 
 ---
 
-## 📄 Design Document
+##  Design Document
 
 Refer to the `Design_Document.md` or `Design_Document.pdf` for:
 - Sensor selection rationale
@@ -95,7 +93,7 @@ Refer to the `Design_Document.md` or `Design_Document.pdf` for:
 
 ---
 
-## 🧠 Future Scope
+##  Future Scope
 
 - BLE broadcasting of heater state
 - OLED/LCD screen for real-time status
@@ -105,7 +103,7 @@ Refer to the `Design_Document.md` or `Design_Document.pdf` for:
 
 ---
 
-## ✅ Author
+## Author
 
 **Ritika Anand**  
 B.Tech - Electronics and Communication Engineering  
