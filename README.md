@@ -33,7 +33,6 @@ Design and implement a simulated embedded system that monitors temperature and c
 - Continuously read temperature from DHT22
 - Turn simulated heater ON/OFF based on thresholds
 - Log temperature and state over Serial
-- LED turns ON/OFF with heater
 - Buzzer activates on overheat (optional)
 - Easily extendable with FreeRTOS or BLE
 
@@ -45,7 +44,6 @@ Design and implement a simulated embedded system that monitors temperature and c
 |----------|-------------|
 | ESP32    | Main controller |
 | DHT22    | Reads ambient temperature |
-| LED      | Simulates heater ON/OFF |
 | Buzzer   | Optional: Alerts in Overheat state |
 
 ---
@@ -55,7 +53,6 @@ Design and implement a simulated embedded system that monitors temperature and c
 | Component | ESP32 GPIO |
 |-----------|-------------|
 | DHT22     | GPIO4       |
-| LED       | GPIO18      |
 | Buzzer    | GPIO19      |
 
 
@@ -70,7 +67,6 @@ Design and implement a simulated embedded system that monitors temperature and c
 ## Wiring Overview
 
 - **DHT22**: VCC → 3.3V, GND → GND, DATA → GPIO4
-- **LED**: Anode → GPIO18, Cathode → GND
 - **Buzzer**: + → GPIO19, – → GND
 
 
