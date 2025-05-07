@@ -8,7 +8,7 @@ Design and implement a simulated embedded system that monitors temperature and c
 
 ## Platform & Tools
 
-- **Simulation**: [Wokwi](https://wokwi.com/)
+- **Simulation**: [Wokwi]([https://wokwi.com/](https://wokwi.com/projects/430305554791987201))
 - **Language**: C/C++ (Arduino Framework)
 - **Microcontroller**: ESP32 DevKit
 - **Sensor**: DHT22 (Temperature Sensor)
